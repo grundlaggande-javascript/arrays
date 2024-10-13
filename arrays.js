@@ -37,5 +37,17 @@ for (let i = 0; i < fruits.length; i++) {
 
 // Problem: Find the sum of all the elements in the array
 let arr = [1, 2, 3, 4, 5, 6, 7]
+let sum = 0
+for (let i = 0; i < arr.length; i++) {
+    sum += arr[i]
+}
+console.log(sum)
 
 // Problem find the longest string in fruits
+let longestString = ""
+for (let i = 0; i < fruits.length; i++) {
+    if (fruits.length > longestString.length) {
+        longestString = fruits[i]
+    }
+}
+console.log(longestString)
