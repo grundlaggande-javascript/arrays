@@ -1,7 +1,3 @@
-Got it! Let’s start with the absolute basics of arrays in JavaScript. Here are some beginner-friendly exercises to help introduce arrays to someone seeing them for the first time:
-
----
-
 ### **Exercise 1: Create an Array**
 Create an array called `fruits` that contains the following items: `"apple"`, `"banana"`, and `"orange"`. Then, print the array.
 
